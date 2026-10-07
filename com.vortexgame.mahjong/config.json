@@ -6,7 +6,6 @@
   "trigger_clicks_count": 10000,
   "trigger_seconds_delay": 259200,
   "active_campaigns": [],
-  "title": "Mahjong vortex",
   "event_sdk": {
     "google": {
       "is_active": true,
@@ -27,5 +26,6 @@
       "stage": "sandbox"
     }
   },
-  "icon_url": "https://mahjong-vortex.web.app/ic_brand2.png"
+  "icon_url": "https://mahjong-vortex.web.app/ic_brand2.png",
+  "title": "Mahjong vortex"
 }
