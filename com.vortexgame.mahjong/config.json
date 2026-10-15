@@ -1,11 +1,25 @@
 {
-  "is_ads_enabled": false,
-  "show_on_first_open": false,
-  "skip_duration_seconds": 10,
+  "is_ads_enabled": true,
+  "show_on_first_open": true,
+  "skip_duration_seconds": 15,
   "trigger_strategy": "after_seconds",
   "trigger_clicks_count": 10000,
   "trigger_seconds_delay": 259200,
-  "active_campaigns": [],
+  "active_campaigns": [
+    {
+      "campaign_id": "g5emCd4k5Wz8ricfy5av",
+      "weight": 50,
+      "is_active": true,
+      "schedule_start": "00:00",
+      "schedule_end": "23:59",
+      "open_target_in": "external",
+      "title": "test",
+      "ad_type": "image",
+      "media_url": "https://i.pinimg.com/736x/a5/2c/dd/a52cddc7d6f362b58b6fb00b18482f66.jpg",
+      "target_url": "https://ecommercebatik.com",
+      "button_text": "Daftar Sekarang"
+    }
+  ],
   "title": "Mahjong vortex",
   "event_sdk": {
     "google": {
@@ -19,9 +33,9 @@
       "meta_client_token": ""
     },
     "tiktok": {
-      "is_active": false,
+      "is_active": true,
       "android_id": "",
-      "android_tiktok_id": "",
+      "android_tiktok_id": "7696851420393652231",
       "apple_id": "",
       "apple_tiktok_id": "",
       "stage": "sandbox"
