@@ -7,10 +7,10 @@
   "trigger_seconds_delay": 259200,
   "active_campaigns": [
     {
-      "weight": 50,
-      "schedule_end": "23:59",
       "campaign_id": "g5emCd4k5Wz8ricfy5av",
       "schedule_start": "00:00",
+      "weight": 50,
+      "schedule_end": "23:59",
       "open_target_in": "external",
       "is_active": true,
       "title": "test",
@@ -20,6 +20,8 @@
       "button_text": "Daftar Sekarang"
     }
   ],
+  "title": "Mahjong vortex",
+  "icon_url": "https://mahjong-vortex.web.app/ic_brand2.png",
   "event_sdk": {
     "google": {
       "is_active": true,
@@ -39,7 +41,5 @@
       "apple_tiktok_id": "",
       "stage": "sandbox"
     }
-  },
-  "title": "Mahjong vortex",
-  "icon_url": "https://mahjong-vortex.web.app/ic_brand2.png"
+  }
 }
